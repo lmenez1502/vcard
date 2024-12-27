@@ -2,30 +2,6 @@
 
 ## Projeto Cartão de Visitas
 
-Dado um Template em `.PDF` vamos criar recria-lo com nossas próprias informações para um possível cartão de visitas WEB.
-
-[Template](https://github.com/JoaoHenriqueVale/vcard/blob/master/v-card.pdf)
-
-Modelo Final do Nosso Cartão:
-![](https://raw.githubusercontent.com/JoaoHenriqueVale/vcard/master/preview/v-card.png)
-
-Vamos Criar a estrutura de pastas do nosso projeto `vcard`:
-
-Dentro da nossa pasta raiz `vcard`, criaremos duas pasta para imagens e estilos sendo elas,
-`css` e `images`
-
-- images (colocaremos todas imagens para nosso projeto)
-- `avatar.png` (imagem de perfil)
-- `background.jpg` (Imagem de fundo)
-- css (colocaremos nossas folhas de estilo, nossos `css`)
-
-Ainda dentro da raiz `vcard` criaremos nosso arquivo `index.html`
-
-![](https://raw.githubusercontent.com/JoaoHenriqueVale/vcard/master/preview/estrutura.png)
-
-
-Vamos lá,
-
 Começaremos pela estrutura básica de um HTML:
 
 ```
@@ -33,7 +9,7 @@ Começaremos pela estrutura básica de um HTML:
 <html lang="pt-br">
   <head>
   <meta charset="utf-8">
-    <title>João Henrique - Cartão de Visitas</title>
+    <title>Leandro Menezes - Cartão de Visitas</title>
   </head>
   <body>
     ...
@@ -86,7 +62,7 @@ Vamos inserir também uma régua de marcação `<hr>`, após os títulos, para o
 ```
 ...
   <div class="vcard-profile-description">
-    <h1 class="profile-title">Oi, Eu sou o <span class="profile-title-color">João Henrique!</span></h1>
+    <h1 class="profile-title">Oi, Eu sou o <span class="profile-title-color">Leandro!</span></h1>
     <h2 class="profile-subtitle">Desenvolvedor Web</h2>
     <hr />
     ...
@@ -114,7 +90,7 @@ Agora vamos destacar uma divisão `<div></div>` de texto `<p></p>` para os nosso
 ```
 ...
 <div class="vcard-profile-description-contact">
-  <p>email: joao.vale@campuscode.com.br / tel: +12 3456 6789</p>
+  <p>email: lmenez1502@gmail.com / tel: 11988107745</p>
 </div>
 ...
 ```
@@ -197,8 +173,6 @@ Pronto, nosso esqueleto do `VCard` está feito, fácil certo?, o conteúdo a at�
 </html>
 ```
 
-Caso abrirmos no "navegador" o arquivo `index.html`, teremos algo assim:
-![](https://raw.githubusercontent.com/JoaoHenriqueVale/vcard/master/preview/esqueleto-html.png)
 
 Bom, agora que tal colocarmos um estilo no nosso esqueleto maquiar ele e deixar mais apresentável para os nossos futuros clientes que acessarem nosso cartão de visita.
 
